@@ -1,6 +1,6 @@
 # Bumping_alert_sensor_module
 
-A bumping avoid module that will alert users during reverse parking in a vehicle. This module also can be use to avoid any movable counterparts into obstacles. This module uses ultrasonic sensor which better in detecting obstacle which flat surface. However soft surface or any surface that can absorb sound wave will result in less effective in detection.
+A bumping avoiding module that will alert users during reverse parking in a vehicle. This module can also be used to avoid any movable counterparts bump into obstacles. This module uses ultrasonic sensor which better in detecting obstacle with flat and even on transparent surface. However soft surface or any surface that can absorb sound wave will result in less effective in detection.
 
 Hardware: 
 1. Arduino Uno board
@@ -16,3 +16,6 @@ Software:
 
 Library:
 1. No library needed
+
+When the ultrasonic sensor senses an obstacles with distance greater than 10cm, the green will turn on, red light and buzzer are turn off.
+When the ultrasonic sensor senses an obstacles with distance lesser and equal to 10cm, the green light will turn off, red light and buzzer turn on. 
